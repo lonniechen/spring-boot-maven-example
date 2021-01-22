@@ -11,6 +11,13 @@
 
     <artifactId>common</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
+
     <properties>
         <java.version>8</java.version>
     </properties>
