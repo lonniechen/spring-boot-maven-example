@@ -9,10 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.example</groupId>
 	<artifactId>airport-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>airport-api</name>
 
 	<properties>
 		<java.version>8</java.version>
