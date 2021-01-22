@@ -25,6 +25,7 @@
 		<module>airport-api</module>
 		<module>airport-core</module>
 		<module>hello-api</module>
+		<module>common</module>
 	</modules>
 
 	<dependencyManagement>
@@ -32,6 +33,12 @@
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>airport-core</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.example</groupId>
+				<artifactId>common</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 		</dependencies>

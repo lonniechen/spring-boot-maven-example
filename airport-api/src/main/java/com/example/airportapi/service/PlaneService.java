@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class PlaneService {
 
-    public PlaneDto getPlane(){
-        return new PlaneDto("Jet Plane", 4);
+    public PlaneDto getPlane(int number){
+        return new PlaneDto("Jet Plane", number);
     }
 }
