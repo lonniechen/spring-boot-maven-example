@@ -24,6 +24,7 @@
 	<modules>
 		<module>airport-api</module>
 		<module>airport-core</module>
+		<module>hello-api</module>
 	</modules>
 
 	<dependencyManagement>
